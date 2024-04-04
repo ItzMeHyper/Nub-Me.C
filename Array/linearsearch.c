@@ -6,7 +6,7 @@ void main() {
     printf("Enter the number of elements: ");
     scanf("%d", &n);
 
-    int a[n]; // Declaring array 'a' of size 'n'
+    int a[n]; 
 
     printf("Enter the numbers: \n");
 
@@ -21,7 +21,7 @@ void main() {
         if(a[i] == x) {
             flag = 1;
             printf("Number is found\n");
-            break; // Exiting loop since the number is found
+            break;
         }
     }
 
