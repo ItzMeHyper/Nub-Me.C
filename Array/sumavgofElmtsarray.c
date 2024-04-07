@@ -16,7 +16,7 @@ void main() {
         sum = sum + a[i];
     }
 
-    avg = (double)sum/4 ;
+    avg = (double)sum/n ;
 
     printf("The sum of the numbers is %d \n", sum);
     printf("The average of the numbers is %lf \n", avg);
