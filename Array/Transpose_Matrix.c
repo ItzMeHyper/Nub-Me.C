@@ -26,8 +26,8 @@ void main(){
     }
         printf("\nThe Transposed matrix is:\n");
 
-    for (i = 0; i < row; i++) {
-        for (j = 0; j < col; j++) {
+    for (i = 0; i < col; i++) {
+        for (j = 0; j < row; j++) {
             printf("%d\t", Mat[j][i]);
         }
         printf("\n");
