@@ -18,7 +18,7 @@ void main() {
     scanf("%d", &x);
 
     for(i = 0; i < n; i++) {
-        if(a[i] == x) {
+        if(x == a[i]) {
             flag = 1;
             printf("Number is found\n");
             break;
